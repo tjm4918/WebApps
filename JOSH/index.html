@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="default.css">
+<head>
+    <title>Quarantine Driving Test</title>
+</head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+<header> Quarantine Driving Tests</header>
+
+<body>
+
+
+<canvas class="canvas" height="600" width="600" style="background-color: #3e3e3e"></canvas>
+
+<div class="scoreboard">
+    <div class="ScoreHeader" id="ScoreHeader" height="25" width="100" >Score</div>
+    <div height="45" width="100" class="score"></div>
+</div>
+
+<div class="lives" id="lives">
+    <div class="life1" id="life1" ></div>
+    <div class="life2" id="life2" ></div>
+    <div class="life3" id="life3" ></div>
+    <div class="lifebk" id="lifebk">Lives</div>
+</div>
+
+<div class="start-menu" id="start-menu">
+    <button id="startButton">START</button>
+    <div class="storyintro">    <p class="storyintro">20th April 2020 </p>
+        <p class= "storyintro">Covid-19 has struck and you have been isolating at home, where its safe, with your family.
+            Food supplies have started to run low and you must go out and search for groceries to feed your family.
+            You put on your fask mask, grab your dog "Momo" and head out into the world!
+        
+        <br></br>
+        <b><i>Be wary of rogue corona virus particulates flying around</i></b>
+        </p>
+    </div>
+</div>
+
+<div class="how-to-play"></div>
+
+<div class="game-over-message" id="game-over-message">
+    <div data-game-over-message-text>Game Over</div>
+    <button id="restartButton">Restart</button>
+
+</div>
+
+<div class="leaderboard" id="leaderboard">
+
+    <div class="title">Leaderboard</div>
+
+    <div class="row" id="player1" value="850">
+            <div id="name">Craig</div>
+            <dt id="finalscore" class="finalscore">850</dt>
+    </div>
+    <div class="row" id="player2">
+            <div id="name">Josh</div>
+            <div id="finalscore" class="finalscore" value="550">550</div>
+    </div>
+    <div class="row" id="player3">
+            <div id="name">daniel</div>
+            <div id="finalscore" class="finalscore" value="450">450</div>
+    </div>
+    <div class="row" id="player4">
+            <div id="name">elliott</div>
+            <div id="finalscore" class="finalscore" value="100">100</div>
+    </div>
+    <div class="row" id="player5">
+            <div id="name">chris</div>
+            <div id="finalscore" class="finalscore" value="80">80</div>
+    </div>
+
+</div>
+
+
+<!-- <script type="text/javascript" src="totalenemies.js"></script> -->
+<script type="text/javascript" src="leaderboard.js"></script>
+<script type="text/javascript" src="points.js"></script>
+<script type="text/javascript" src="bonuslives.js"></script>
+<script type="text/javascript" src="Enemies.js"></script>
+<script type="text/javascript" src="car.js"></script>
+<script type="text/javascript" src="draw.js"></script>
+
+
+</body>
+
+
+
+</html>
